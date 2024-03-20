@@ -6,6 +6,7 @@ import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import NavBar from "./components/NavBar";
 import Product from "./pages/Product";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
 class App extends Component {
   constructor(props) {
@@ -120,7 +121,13 @@ class App extends Component {
                 );
               }}
             />
-            <Route path="*" exact={true} component={NotFound} />
+            <Route
+              path="*"
+              exact={true}
+              render={() => {
+                return <Redirect to="/" />;
+              }}
+            />
           </Switch>
         </main>
 
