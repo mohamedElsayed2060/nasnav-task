@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mohamedElsayed2060/nasnav-task/static/css/main.a21c9090.css",
+    "main.js": "/mohamedElsayed2060/nasnav-task/static/js/main.a6df9a64.js",
+    "static/js/453.694e8210.chunk.js": "/mohamedElsayed2060/nasnav-task/static/js/453.694e8210.chunk.js",
+    "index.html": "/mohamedElsayed2060/nasnav-task/index.html",
+    "main.a21c9090.css.map": "/mohamedElsayed2060/nasnav-task/static/css/main.a21c9090.css.map",
+    "main.a6df9a64.js.map": "/mohamedElsayed2060/nasnav-task/static/js/main.a6df9a64.js.map",
+    "453.694e8210.chunk.js.map": "/mohamedElsayed2060/nasnav-task/static/js/453.694e8210.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a21c9090.css",
+    "static/js/main.a6df9a64.js"
+  ]
+}
